@@ -13,7 +13,7 @@ function Mid() {
   const handlePredict = async () => {
     setLoading(true);
     try {
-      const response = await axios.post('https://5bfc-191-98-182-165.ngrok-free.app/predict', {
+      const response = await axios.post('https://5361-191-98-182-165.ngrok-free.app/predict', {
         text: inputText, // Envía el texto como parte del objeto JSON
       }, {
         headers: {
@@ -31,7 +31,7 @@ function Mid() {
 
     setLoading(true);
     try {
-      const response = await axios.post('https://5bfc-191-98-182-165.ngrok-free.app/predict_scikit', {
+      const response = await axios.post('https://5361-191-98-182-165.ngrok-free.app/predict_scikit', {
         text: inputText, // Envía el texto como parte del objeto JSON
       }, {
         headers: {
